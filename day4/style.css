@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1200px;
+}
+
+header {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+#QnA {
+  width: 100%;
+  background-color: aqua;
+}
+
+#Quiz {
+  width: 100%;
+  font-size: 36px;
+}
+
+#answer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.text {
+  width: 50%;
+  cursor: pointer;
+  font-size: 24px;
+  border: 1px solid black;
+}

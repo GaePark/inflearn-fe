@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+}
+
+.remaining {
+  margin: 50px 0;
+}
+
+.chose {
+  display: flex;
+  justify-content: center;
+}
+.chose > div {
+  width: 100px;
+  height: 50px;
+  margin: 0 20px;
+  line-height: 50px;
+  cursor: pointer;
+  background-color: green;
+  border-radius: 3px;
+}
